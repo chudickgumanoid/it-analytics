@@ -1,8 +1,9 @@
 @charset "UTF-8";
 
 @import "_nullstyle";
-@import "_about-us";
+// @import "_about-us";
 @import "_adaptive";
+@import "_green";
 
 body {
    font-family: "Montserrat", sans-serif;
@@ -122,14 +123,8 @@ h6 {
 }
 
 .header__inner {
-   display: -webkit-box;
-   display: -ms-flexbox;
    display: flex;
-   -webkit-box-pack: justify;
-   -ms-flex-pack: justify;
    justify-content: space-between;
-   -webkit-box-align: center;
-   -ms-flex-align: center;
    align-items: center;
 }
 
@@ -160,14 +155,6 @@ h6 {
    }
 
    .header {
-      &__inner {
-         height: 60px;
-      }
-
-      &__logo {
-         flex: 0 0 100px;
-      }
-
       &__burger {
          display: block;
          position: relative;
