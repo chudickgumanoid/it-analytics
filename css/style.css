@@ -633,6 +633,11 @@ h6 {
     height: 500px;
   }
 }
+@media (max-width: 425px) {
+  .service {
+    height: 360px;
+  }
+}
 
 .service:after {
   content: "";
@@ -664,6 +669,11 @@ h6 {
 @media (max-width: 1270px) {
   .service__title {
     width: 90%;
+  }
+}
+@media (max-width: 425px) {
+  .service__title {
+    font-size: 24px;
   }
 }
 
@@ -996,18 +1006,17 @@ h6 {
   }
 }
 
-.education-small__title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-size: 36px;
-}
 @media (max-width: 768px) {
   .education-small__title {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
     width: 100%;
+  }
+}
+@media (max-width: 425px) {
+  .education-small__title {
+    font-size: 30px;
   }
 }
 
@@ -1150,11 +1159,11 @@ input {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding: 50px 20px;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .form-zvonok div {
@@ -1163,8 +1172,13 @@ input {
 
 .bot-send-mail {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   width: 100%;
+}
+@media (max-width: 425px) {
+  .bot-send-mail {
+    font-size: 16px;
+  }
 }
 
 .form-zvonok label,
@@ -1172,7 +1186,21 @@ input {
   display: block;
   width: 100%;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.feedback__msg {
+  width: 100%;
+  resize: vertical;
+  min-height: 45px;
+  padding: 10px 15px 0 15px;
+  margin-top: 5px;
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 40px;
 }
 
 .form-zvonok label {
