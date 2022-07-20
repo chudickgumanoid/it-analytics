@@ -2,7 +2,6 @@
 
 @import "_nullstyle";
 // @import "_about-us";
-@import "_adaptive";
 @import "_green";
 
 body {
@@ -43,6 +42,7 @@ h6 {
       padding: 0 40px;
       margin: 0 auto;
    }
+
    @media (max-width: 500px) {
       padding: 0 15px;
    }
@@ -79,6 +79,9 @@ h6 {
    text-transform: initial;
    text-align: center;
    line-height: 1;
+   @media (max-width: 425px) {
+      font-size: 40px;
+   }
 }
 
 .intro__title::after {
@@ -146,6 +149,10 @@ h6 {
       position: relative;
       padding-left: 20px;
       color: #fff;
+
+      @media (max-width: 425px) {
+         font-size: 18px;
+      }
    }
 }
 
@@ -233,18 +240,6 @@ h6 {
             margin: 0px 0px 20px 0px;
          }
       }
-
-      &__link {
-         font-size: 30px;
-         font-weight: 400;
-         line-height: 50px;
-         color: #3c4357;
-         letter-spacing: 1.5;
-
-         &:hover {
-            border-bottom: 3px solid #d4dfe8;
-         }
-      }
    }
 }
 
@@ -271,7 +266,7 @@ h6 {
       transition: color 0.1s linear;
 
       @media (max-width: 768px) {
-         font-size: 40px;
+         font-size: 30px;
       }
 
       &::after {
@@ -370,6 +365,9 @@ h6 {
 
    @media (max-width: 768px) {
       width: 100%;
+   }
+   @media (max-width: 425px) {
+      font-size: 24px;
    }
 }
 
@@ -480,13 +478,17 @@ h6 {
 .service {
    width: 100%;
    padding-top: 50px;
-   -webkit-box-pack: justify;
-   -ms-flex-pack: justify;
    justify-content: space-between;
-   background: -webkit-gradient(linear, left top, right top, from(rgb(129, 129, 129)), to(rgb(167, 142, 104)));
-   background: -o-linear-gradient(left, rgb(129, 129, 129), rgb(167, 142, 104));
    background: linear-gradient(90deg, rgb(129, 129, 129), rgb(167, 142, 104));
    height: 490px;
+
+   @media (max-width: 1270px) {
+      height: 430px;
+   }
+
+   @media (max-width: 600px) {
+      height: 500px;
+   }
 }
 
 .service:after {
@@ -496,6 +498,10 @@ h6 {
    height: 2px;
    margin: 100px auto 0;
    background-color: #E0E0E0;
+
+   @media (max-width: 1270px) {
+      display: none;
+   }
 }
 
 .service__header {
@@ -511,34 +517,58 @@ h6 {
    font-size: 36px;
    color: #fff;
 
-   @media (max-width: 1024px) {
-      width: 100%;
+   @media (max-width: 1270px) {
+      width: 90%;
    }
 }
 
 .service__content {
-   display: -webkit-box;
-   display: -ms-flexbox;
    display: flex;
    max-width: 1200px;
-   -webkit-box-pack: justify;
-   -ms-flex-pack: justify;
    justify-content: space-between;
    margin: 50px auto 30px;
+
+   @media (max-width: 950px) {
+      max-width: 100%;
+      width: 100%;
+      height: 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+
+   @media (max-width: 600px) {
+      flex-direction: column;
+      align-items: center;
+      margin: 10px auto 30px;
+   }
 }
 
 .service__img {
    width: 350px;
+
+   @media (max-width: 1270px) {
+      width: 100%;
+   }
+
+   @media (max-width: 600px) {
+      width: 60%;
+   }
 }
 
 .service__img img {
    width: 100%;
    border-radius: 10px;
+
 }
 
 .service__text {
    width: 350px;
    margin-top: 50px;
+
+   @media (max-width: 1270px) {
+      width: 100%;
+      margin: 20px 0 0 0;
+   }
 }
 
 .service__text h2 .color__text {
@@ -547,6 +577,33 @@ h6 {
 
 .service__item {
    width: 350px;
+   position: relative;
+
+   @media (max-width: 1270px) {
+      width: 33%;
+      margin: 0 15px;
+   }
+
+   @media (max-width: 950px) {
+      &:last-child {
+         margin: 20px 0 50px 0;
+      }
+
+      width: 45%;
+   }
+
+   @media (max-width: 600px) {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 15px 0;
+
+      &:last-child {
+         margin: 0;
+      }
+   }
 }
 
 .service__link {
@@ -557,8 +614,6 @@ h6 {
    position: relative;
    color: #4985FF;
    text-decoration: none;
-   -webkit-transition: color 0.1s linear;
-   -o-transition: color 0.1s linear;
    transition: color 0.1s linear;
 }
 
@@ -573,8 +628,6 @@ h6 {
    top: 100%;
    left: 0;
    z-index: 1;
-   -webkit-transition: opacity 0.1s linear;
-   -o-transition: opacity 0.1s linear;
    transition: opacity 0.1s linear;
 }
 
@@ -590,6 +643,28 @@ h6 {
    background-color: #fff;
    width: 100%;
    height: 400px;
+
+   @media (max-width: 1270px) {
+      height: 250px;
+      background-color: none;
+   }
+
+   @media (max-width: 950px) {
+      height: 750px;
+      background-color: none;
+   }
+
+   @media (max-width: 768px) {
+      height: 700px;
+   }
+
+   @media (max-width: 600px) {
+      height: 950px;
+   }
+
+   @media (max-width: 425px) {
+      height: 850px;
+   }
 }
 
 /* Project */
@@ -609,12 +684,8 @@ h6 {
 }
 
 .project__image {
-   display: -webkit-box;
-   display: -ms-flexbox;
    display: flex;
    max-width: 1200px;
-   -webkit-box-pack: justify;
-   -ms-flex-pack: justify;
    justify-content: space-between;
    margin: 50px auto 50px;
 }
@@ -624,33 +695,48 @@ h6 {
 }
 
 /* Education */
+.education {
+   @media (max-width: 768px) {
+      display: none;
+   }
+}
+
 .education__title {
-   display: -webkit-box;
-   display: -ms-flexbox;
    display: flex;
    font-size: 36px;
+
+   @media (max-width: 768px) {
+      order: 1;
+   }
 }
 
 .education__content {
-   display: -webkit-box;
-   display: -ms-flexbox;
    display: flex;
-   -webkit-box-pack: justify;
-   -ms-flex-pack: justify;
    justify-content: space-between;
-   -webkit-box-align: start;
-   -ms-flex-align: start;
    align-items: flex-start;
    padding: 10px 0 100px;
    margin: 0 auto;
    width: 1200px;
    font-size: 15px;
    color: #333;
+
+   @media (max-width: 1270px) {
+      width: 100%;
+   }
+
+   @media (max-width: 768px) {
+      display: flex;
+      flex-direction: column;
+   }
 }
 
 .education__img {
    width: 500px;
    height: 400px;
+
+   @media (max-width: 768px) {
+      order: 2;
+   }
 }
 
 .education__img img {
@@ -663,10 +749,18 @@ h6 {
    width: 1200px;
    height: 1px;
    background-color: #E0E0E0;
+
+   @media (max-width: 768px) {
+      margin: 50px auto 50px;
+   }
 }
 
 .education__text {
    width: 600px;
+
+   @media (max-width: 768px) {
+      order: 3;
+   }
 }
 
 .ri-telegram-fill {
@@ -676,12 +770,71 @@ h6 {
 }
 
 .icon {
-   display: -webkit-box;
-   display: -ms-flexbox;
    display: flex;
-   -webkit-box-align: center;
-   -ms-flex-align: center;
    align-items: center;
+}
+
+
+.education-small {
+   display: none;
+
+   @media (max-width: 768px) {
+      display: block;
+   }
+}
+
+.education-small__title {
+   display: flex;
+   font-size: 36px;
+
+   @media (max-width: 768px) {
+      order: 1;
+      width: 100%;
+   }
+}
+
+.education-small__content {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   padding: 10px 0 100px;
+   margin: 0 auto;
+   width: 1200px;
+   font-size: 15px;
+   color: #333;
+
+   @media (max-width: 1270px) {
+      width: 100%;
+   }
+
+   @media (max-width: 768px) {
+      display: flex;
+      padding: 0 0 0px 0;
+      flex-direction: column;
+   }
+}
+
+.education-small__img {
+   @media (max-width: 768px) {
+      order: 2;
+      width: 100%;
+      height: auto;
+   }
+}
+
+.education-small__img img {
+   width: 100%;
+   height: auto;
+}
+
+.education-small__text {
+   width: 600px;
+
+   @media (max-width: 768px) {
+      order: 3;
+      width: 100%;
+      margin: 15px 0 0 0;
+   }
 }
 
 /* Feedback */
@@ -692,6 +845,10 @@ h6 {
    max-width: 750px;
    margin: 0 auto 100px;
    text-align: center;
+
+   @media (max-width: 768px) {
+      margin: 0 auto 50px;
+   }
 }
 
 .box form {
@@ -702,23 +859,15 @@ input {
    position: relative;
    display: inline-block;
    font-size: 20px;
-   -webkit-box-sizing: border-box;
    box-sizing: border-box;
-   -webkit-transition: 0.5s;
-   -o-transition: 0.5s;
    transition: 0.5s;
    border-radius: 40px;
 }
 
 .input__wrap {
    margin: 30px auto;
-   max-width: -webkit-min-content;
-   max-width: -moz-min-content;
    max-width: min-content;
-   display: -webkit-box;
-   display: -ms-flexbox;
    display: flex;
-   -webkit-box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
    border-top-left-radius: 30px;
    border-bottom-left-radius: 30px;
@@ -825,6 +974,7 @@ input {
 
 .footer h2 {
    font-size: 15px;
+   font-weight: 700;
 }
 
 @media (max-width: 1240px) {
