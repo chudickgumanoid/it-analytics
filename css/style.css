@@ -73,6 +73,123 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
+.header__other {
+  background-color: #333;
+}
+
+.aboutus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 70px 0 0 0;
+}
+@media (max-width: 425px) {
+  .aboutus {
+    margin: 30px 0 0 0;
+  }
+}
+.aboutus__text {
+  margin: 0 0 50px 0;
+}
+.aboutus__title {
+  padding: 0 0px 25px 0;
+  font-size: 36px;
+  color: #333;
+  font-weight: 700;
+}
+.aboutus__subtext {
+  margin: 100px 0 100px 0;
+  text-align: center;
+  width: 100%;
+}
+@media (max-width: 425px) {
+  .aboutus__subtext {
+    margin: 30px 0 30px 0;
+  }
+}
+
+.about_foto {
+  width: 100%;
+  height: auto;
+  border-radius: 25px;
+}
+@media (max-width: 425px) {
+  .about_foto {
+    height: 300px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+.foto__text {
+  position: absolute;
+  color: #fff;
+  text-shadow: rgb(105, 105, 105) 5px 0px 50px;
+  padding: 150px 50px 0;
+  text-align: left;
+  font-size: 54px;
+  font-weight: 700;
+}
+@media (max-width: 1024px) {
+  .foto__text {
+    padding: 100px 50px 0;
+  }
+}
+@media (max-width: 768px) {
+  .foto__text {
+    padding: 90px 20px 0 20px;
+    font-size: 30px;
+  }
+}
+
+.header__other {
+  background-color: #333;
+}
+
+/* Contact */
+.contact {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 0px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.contact__text {
+  padding: 0 0 40px;
+}
+.contact__text h2 {
+  font-weight: 700;
+  font-size: 24px;
+}
+.contact__text p {
+  font-size: 15px;
+}
+
+iframe {
+  width: 100%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .content__green {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
@@ -105,6 +222,7 @@ body {
   font-size: 15px;
   line-height: 1.6;
   color: #333;
+  height: 100%;
 }
 
 * {
@@ -149,6 +267,20 @@ h6 {
   width: 100%;
   min-height: 100%;
   overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main {
+  margin: 101px 0 0 0;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
 }
 
 /* Intro */
@@ -189,6 +321,17 @@ h6 {
     font-size: 40px;
   }
 }
+@media (max-height: 425px) {
+  .intro__title {
+    margin-top: 100px;
+  }
+}
+@media (max-height: 375px) {
+  .intro__title {
+    margin-top: 100px;
+    font-size: 30px;
+  }
+}
 
 .intro__title::after {
   content: "";
@@ -216,6 +359,10 @@ h6 {
   left: 0;
   right: 0;
   z-index: 1000;
+}
+
+.header__other {
+  background-color: #333;
 }
 
 .header:after {
@@ -375,8 +522,13 @@ h6 {
     display: inline-block;
   }
 }
-.header__list .nav__link {
+
+.nav__link {
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: top;
   margin: 0 20px;
+  position: relative;
   color: #fff;
   text-decoration: none;
   -webkit-transition: color 0.1s linear;
@@ -384,11 +536,12 @@ h6 {
   transition: color 0.1s linear;
 }
 @media (max-width: 768px) {
-  .header__list .nav__link {
-    font-size: 30px;
+  .nav__link {
+    font-size: 24px;
   }
 }
-.header__list .nav__link::after {
+
+.nav__link::after {
   content: "";
   display: block;
   width: 100%;
@@ -403,11 +556,12 @@ h6 {
   -o-transition: opacity 0.1s linear;
   transition: opacity 0.1s linear;
 }
-.header__list .nav__link:hover {
+
+.nav__link:hover {
   color: #fff;
 }
 
-.nav__link .nav__link:hover::after {
+.nav__link:hover::after {
   opacity: 1;
 }
 
@@ -543,32 +697,12 @@ h6 {
   margin-right: 20px;
 }
 
+.about .ofd24,
+.about .tis,
+.about .OnlineKassa,
+.about .ttc,
+.about .beeline,
 .about .green_kassa {
-  width: 80px;
-  height: 80px;
-}
-
-.about .ofd24 {
-  width: 80px;
-  height: 80px;
-}
-
-.about .tis {
-  width: 80px;
-  height: 80px;
-}
-
-.about .OnlineKassa {
-  width: 80px;
-  height: 80px;
-}
-
-.about .ttc {
-  width: 80px;
-  height: 80px;
-}
-
-.about .beeline {
   width: 80px;
   height: 80px;
 }
@@ -1192,7 +1326,7 @@ input {
 .feedback__msg {
   width: 100%;
   resize: vertical;
-  min-height: 45px;
+  min-height: 50px;
   padding: 10px 15px 0 15px;
   margin-top: 5px;
   position: relative;
@@ -1200,7 +1334,7 @@ input {
   font-size: 20px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  border-radius: 40px;
+  border-radius: 40px 40px 0px 40px;
 }
 
 .form-zvonok label {

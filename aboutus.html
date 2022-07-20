@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="image/it_analytics.ico">
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="js/burger-menu.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" href="../Red/image/it_analytics.ico">
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap"
@@ -16,52 +19,67 @@
 
 <body class="contact__page">
     <div class="wrapper">
-        <header class="header">
-            <div class="container">
-                <div class="header__inner">
-                    <div class="header__logo"><a href="index.html">IT ANALYTICS</a></div>
-
-                    <nav class="nav">
-                        <!-- <a class="nav__link" href="#">Услуги</a> -->
-                        <!-- <a class="nav__link" href="#">Учебный центр</a> -->
-                        <a class="nav__link" href="contacts.html">Контакты</a>
-                        <a class="nav__link" href="aboutus.html">О нас</a>
-                    </nav>
+        <div class="main">
+            <header class="header header__other">
+                <div class="container">
+                    <div class="header__inner">
+                        <div class="header__logo">
+                            <img src="image/Logo_IT analytics.svg" alt="Logo">
+                            <a href="index.html">IT ANALYTICS</a>
+                        </div>
+                        <div class="header__burger">
+                            <span></span>
+                        </div>
+                        <nav class="header__menu">
+                            <ul class="header__list">
+                                <!-- <li><a class="nav__link" href="#">Услуги</a></li> -->
+                                <!-- <li><a class="nav__link" href="#">Учебный центр</a></li> -->
+                                <li><a class="nav__link" href="contacts.html">Контакты</a></li>
+                                <li><a class="nav__link" href="aboutus.html">О нас</a></li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
-            </div>
-            <div class="header_background">
+            </header>
 
-            </div>
-        </header>
+            <section class="aboutus">
+                <div class="container">
+                    <div class="aboutus__text">
+                        <h2 class="aboutus__title">О компании</h2>
+                        <p class="title__text">ТОО «IT Analytics» это казахстанская IT компания, специализирующаяся на
+                            создании
+                            программного обеспечения (далее - ПО) в сфере M2M (Machine-to Machine/межмашинное
+                            взаимодействие)
+                            которое позволяет устройствам обмениваться информацией между собой. Это проводные и
+                            беспроводные
+                            системы датчиков/приборов которые передают информацию от одного устройства другому.<br>
+                        </p>
+                    </div>
 
-        <section class="contact">
-            <div class="contact__text">
-                <h2 class="aboutus__title">О компании</h2>
-                <p class="title__text">ТОО «IT Analytics» это казахстанская IT компания, специализирующаяся на создании
-                    программного обеспечения (далее - ПО) в сфере M2M (Machine-to Machine/межмашинное взаимодействие)
-                    которое позволяет устройствам обмениваться информацией между собой. Это проводные и беспроводные
-                    системы датчиков/приборов которые передают информацию от одного устройства другому.<br>
-                </p>
-            </div>
+                    <div class="about_foto">
+                        <h2 class="foto__text">Все что задумано,<br> мы реализуем!</h2>
+                        <img class="about_foto" src="image/about_us_image.png" alt="">
 
-            <div class="about_foto">
-                <h2 class="foto__text">Все что задумано,<br> мы реализуем!</h2>
+                    </div>
 
-            </div>
+                    <div>
+                        <p class="aboutus__subtext">Специалисты ТОО «IT Analytics» имеют высокую квалификацию и большой опыт
+                            работы с
+                            использованием последних достижений информационных технологий для разработки
+                            высоконагруженных,
+                            масштабируемых информационных систем.<br>
+                            Флагманским продуктом нашей компании является программа по приему и обработке данных,
+                            передаваемых с
+                            контрольно-кассовых машин (далее - ККМ) на сервер оператора фискальных данных (далее - ОФД).
+                            ПО
+                            полностью соответствует необходимым техническим требованиям и нормативно-правовым актам РК,
+                            регламентирующие функционирование системы ОФД.
+                        </p>
 
-            <div>
-                <p class="about__text">Специалисты ТОО «IT Analytics» имеют высокую квалификацию и большой опыт работы с
-                    использованием последних достижений информационных технологий для разработки высоконагруженных,
-                    масштабируемых информационных систем.<br>
-                    Флагманским продуктом нашей компании является программа по приему и обработке данных, передаваемых с
-                    контрольно-кассовых машин (далее - ККМ) на сервер оператора фискальных данных (далее - ОФД). ПО
-                    полностью соответствует необходимым техническим требованиям и нормативно-правовым актам РК,
-                    регламентирующие функционирование системы ОФД.
-                </p>
-
-            </div>
-        </section>
-
+                    </div>
+                </div>
+            </section>
+        </div>
         <footer>
             <div class="footer">
                 <h2>IT ANALYTICS</h2>
