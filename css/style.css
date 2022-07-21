@@ -1140,6 +1140,9 @@ h6 {
   }
 }
 
+.education-small__title {
+  font-size: 36px;
+}
 @media (max-width: 768px) {
   .education-small__title {
     -webkit-box-ordinal-group: 2;
