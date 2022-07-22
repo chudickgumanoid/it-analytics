@@ -92,14 +92,17 @@ h6 {
    @media (max-width: 425px) {
       font-size: 40px;
    }
+   @media (max-width: 320px) {
+      font-size: 30px;
+   }
 
    @media (max-height: 425px) {
       margin-top: 100px;
+      font-size: 30px;
    }
 
    @media (max-height: 375px) {
       margin-top: 100px;
-      font-size: 30px;
    }
 }
 
@@ -776,6 +779,9 @@ h6 {
    font-size: 24px;
    margin-right: 5px;
    color: #3172ff;
+   @media (max-width: 768px) {
+      margin: 0;
+   }
 }
 
 .icon {
@@ -798,6 +804,10 @@ h6 {
    @media (max-width: 768px) {
       order: 1;
       width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: -40px;
    }
 
    @media (max-width: 425px) {
@@ -846,6 +856,11 @@ h6 {
       order: 3;
       width: 100%;
       margin: 15px 0 0 0;
+      display: flex;
+      flex-direction: column;
+      .feedback__number{
+         
+      }
    }
 }
 
@@ -859,10 +874,23 @@ h6 {
    text-align: center;
 
    @media (max-width: 768px) {
-      margin: 0 auto 50px;
+      margin: -50px 0 0 0;
+      width: 100%;
    }
 }
-
+.feedback__content{
+   margin: 0 -15px;
+}
+.feedback__num{
+   display: inline-block;
+   width: 100%;
+   order: 4;
+}
+.feedback_title{
+   p{
+      width: 100%;
+   }
+}
 .box form {
    text-align: center;
 }
@@ -874,6 +902,9 @@ input {
    box-sizing: border-box;
    transition: 0.5s;
    border-radius: 40px;
+   @media (max-width: 425px) {
+      font-size: 16px;
+   }
 }
 
 .input__wrap {
@@ -937,7 +968,13 @@ input {
    width: 100%;
    box-sizing: border-box;
 }
-
+.blockkk{
+   @media (max-width: 320px) {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+   }
+}
 .feedback__msg {
    width: 100%;
    resize: vertical;
@@ -949,8 +986,15 @@ input {
    font-size: 20px;
    box-sizing: border-box;
    border-radius: 40px 40px 0px 40px;
+   @media (max-width: 425px) {
+      font-size: 16px;
+   }
 }
-
+.feedback__number{
+   cursor: pointer;
+   text-decoration: none;
+   color: #000;
+}
 .form-zvonok label {
    margin-bottom: 5px;
    font-weight: bold;

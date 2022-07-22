@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" href="image/it_analytics.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap"
+        rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
     <script src="js/burger-menu.js"></script>
     <script src="js/phoneinput.js"></script>
@@ -196,9 +197,10 @@
                             неделю по
                             3 часа), форма обучения офлайн и онлайн.<br>
                         <h5>По итогам успешной сдачи тестов, вы можете быть трудоустроены к нам в компанию.</h5>
-                        <br><b>Хотите записаться на курсы?</b><br><b><span class="icon"><i
-                                    class="ri-telegram-fill"></i>+7 777
-                                658 1822 Юрий Викторович</span></b></p>
+                        <br><b>Хотите записаться на курсы?</b><br><b><span class="icon"><i class="ri-telegram-fill"></i>
+                                <div class="blockkk"><a class="feedback__number" href="tel:+77776581822">+7 777 658 1822</a>⠀Юрий Викторович
+                                </div>
+                            </span></b></p>
                         <!-- <a class="service__link" href="#">Подробнее</a> -->
                     </div>
                     <div class="education__img">
@@ -226,7 +228,9 @@
                             неделю по
                             3 часа), форма обучения офлайн и онлайн.<br>
                         <h5>По итогам успешной сдачи тестов, вы можете быть трудоустроены к нам в компанию.</h5>
-                        <br><b>Хотите записаться на курсы?</b><br><b><span class="icon"><i class="ri-telegram-fill"></i>+7 777 658 1822 Юрий Викторович</span></b></p>
+                        <br><b>Хотите записаться на курсы?</b><br><b><span class="icon"><i
+                                    class="ri-telegram-fill"></i><div class="blockkk"><a class="feedback__number"
+                                    href="tel:+77776581822">⠀+7 777 658 1822</a>⠀Юрий Викторович</div></span></b></p>
                     </div>
                     <div class="education-small__img">
                         <img src="image/about-8.jpg">
@@ -234,37 +238,39 @@
                 </div>
             </div>
         </section>
-        
+
         <div class="border"></div>
 
         <section class="feedback">
-            <div class="feedback__content">
-                <div class="feedback__text">
-                    <h2 class="feedback_title">Закажи обратный звонок</h2>
-                    <p>Получите бесплатную консультацию, прямо сейчас!</p>
+            <div class="container">
+                <div class="feedback__content">
+                    <div class="feedback__text">
+                        <h2 class="feedback_title">Закажи обратный звонок</h2>
+                        <p>Получите бесплатную консультацию, прямо сейчас!</p>
+                    </div>
+                    <div class="box">
+                        <form class="obratnuj-zvonok" autocomplete="off" action='email.php' method='post'>
+                            <div class="form-zvonok">
+                                <div>
+                                    <label>Имя <span>*</span></label>
+                                    <input type='text' placeholder="Введите Имя" name='username' required>
+                                </div>
+                                <div>
+                                    <label>Телефон<span>*</span></label>
+                                    <input id='tel' type='tel' data-tel-input placeholder="Введите номер" maxlength="18"
+                                        name='usernumber' required>
+                                </div>
+                                <div>
+                                    <label>Сообщение</label>
+                                    <textarea class="feedback__msg" type='text' placeholder="Введите Сообщение"
+                                        name='question'></textarea>
+                                </div>
+                                <input class="bot-send-mail" type='submit' value='Отправить заявку'>
+                            </div>
+                        </form>
+                    </div>
+                    <p>Мы не шлем спам, и не передаем никому ваши данные.</p>
                 </div>
-                <div class="box">
-                    <form class="obratnuj-zvonok" autocomplete="off" action='email.php' method='post'>
-                        <div class="form-zvonok">
-                            <div>
-                                <label>Имя <span>*</span></label>
-                                <input type='text' placeholder="Введите Имя" name='username' required>
-                            </div>
-                            <div>
-                                <label>Телефон<span>*</span></label>
-                                <input id='tel' type='tel' data-tel-input placeholder="Введите номер" maxlength="18"
-                                    name='usernumber' required>
-                            </div>
-                            <div>
-                                <label>Сообщение</label>
-                                <textarea class="feedback__msg" type='text' placeholder="Введите Сообщение"
-                                    name='question'></textarea>
-                            </div>
-                            <input class="bot-send-mail" type='submit' value='Отправить заявку'>
-                        </div>
-                    </form>
-                </div>
-                <p>Мы не шлем спам, и не передаем никому ваши данные.</p>
             </div>
         </section>
 
