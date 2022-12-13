@@ -248,33 +248,35 @@
         <div class="border"></div>
 
         <section class="feedback">
-            <div class="feedback__content">
-                <div class="feedback__text">
-                    <h2 class="feedback_title">Закажи обратный звонок</h2>
-                    <p>Получите бесплатную консультацию, прямо сейчас!</p>
+            <div class="container">
+                <div class="feedback__content">
+                    <div class="feedback__text">
+                        <h2 class="feedback_title">Закажи обратный звонок</h2>
+                        <p>Получите бесплатную консультацию, прямо сейчас!</p>
+                    </div>
+                    <div class="box">
+                        <form class="obratnuj-zvonok" autocomplete="off" action='email.php' method='post'>
+                            <div class="form-zvonok">
+                                <div>
+                                    <label>Имя <span>*</span></label>
+                                    <input type='text' placeholder="Введите Имя" name='username' required>
+                                </div>
+                                <div>
+                                    <label>Телефон<span>*</span></label>
+                                    <input id='tel' type='tel' data-tel-input placeholder="Введите номер" maxlength="18"
+                                        name='usernumber' required>
+                                </div>
+                                <div>
+                                    <label>Сообщение</label>
+                                    <textarea class="feedback__msg" type='text' placeholder="Введите Сообщение"
+                                        name='question'></textarea>
+                                </div>
+                                <input class="bot-send-mail" type='submit' value='Отправить заявку'>
+                            </div>
+                        </form>
+                    </div>
+                    <p>Мы не шлем спам, и не передаем никому ваши данные.</p>
                 </div>
-                <div class="box">
-                    <form class="obratnuj-zvonok" autocomplete="off" action='email.php' method='post'>
-                        <div class="form-zvonok">
-                            <div>
-                                <label>Имя <span>*</span></label>
-                                <input type='text' placeholder="Введите Имя" name='username' required>
-                            </div>
-                            <div>
-                                <label>Телефон<span>*</span></label>
-                                <input id='tel' type='tel' data-tel-input placeholder="Введите номер" maxlength="18"
-                                    name='usernumber' required>
-                            </div>
-                            <div>
-                                <label>Сообщение</label>
-                                <textarea class="feedback__msg" type='text' placeholder="Введите Сообщение"
-                                    name='question'></textarea>
-                            </div>
-                            <input class="bot-send-mail" type='submit' value='Отправить заявку'>
-                        </div>
-                    </form>
-                </div>
-                <p>Мы не шлем спам, и не передаем никому ваши данные.</p>
             </div>
         </section>
 

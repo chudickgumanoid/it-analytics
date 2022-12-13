@@ -321,15 +321,20 @@ h6 {
     font-size: 40px;
   }
 }
+@media (max-width: 320px) {
+  .intro__title {
+    font-size: 30px;
+  }
+}
 @media (max-height: 425px) {
   .intro__title {
     margin-top: 100px;
+    font-size: 30px;
   }
 }
 @media (max-height: 375px) {
   .intro__title {
     margin-top: 100px;
-    font-size: 30px;
   }
 }
 
@@ -1139,6 +1144,11 @@ a.education__number {
   margin-right: 5px;
   color: #3172ff;
 }
+@media (max-width: 768px) {
+  .ri-telegram-fill {
+    margin: 0;
+  }
+}
 
 .ico-adress {
   margin-top: 7px;
@@ -1165,6 +1175,9 @@ a.education__number {
   }
 }
 
+.education-small__title {
+  font-size: 36px;
+}
 @media (max-width: 768px) {
   .education-small__title {
     -webkit-box-ordinal-group: 2;
@@ -1234,6 +1247,13 @@ a.education__number {
             order: 3;
     width: 100%;
     margin: 15px 0 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -1248,8 +1268,25 @@ a.education__number {
 }
 @media (max-width: 768px) {
   .feedback {
-    margin: 0 auto 50px;
+    margin: -50px 0 0 0;
+    width: 100%;
   }
+}
+
+.feedback__content {
+  margin: 0 -15px;
+}
+
+.feedback__num {
+  display: inline-block;
+  width: 100%;
+  -webkit-box-ordinal-group: 5;
+      -ms-flex-order: 4;
+          order: 4;
+}
+
+.feedback_title p {
+  width: 100%;
 }
 
 .box form {
@@ -1266,6 +1303,11 @@ input {
   -o-transition: 0.5s;
   transition: 0.5s;
   border-radius: 40px;
+}
+@media (max-width: 425px) {
+  input {
+    font-size: 16px;
+  }
 }
 
 .input__wrap {
@@ -1344,6 +1386,19 @@ input {
           box-sizing: border-box;
 }
 
+@media (max-width: 320px) {
+  .blockkk {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0;
+  }
+}
+
 .feedback__msg {
   width: 100%;
   resize: vertical;
@@ -1356,6 +1411,17 @@ input {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 40px 40px 0px 40px;
+}
+@media (max-width: 425px) {
+  .feedback__msg {
+    font-size: 16px;
+  }
+}
+
+.feedback__number {
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
 }
 
 .form-zvonok label {
