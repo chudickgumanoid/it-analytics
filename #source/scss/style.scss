@@ -703,11 +703,23 @@ h6 {
    width: 255px;
 }
 
+.edu__con {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+}
+
 /* Education */
 .education {
    @media (max-width: 768px) {
       display: none;
    }
+}
+
+a.education__number {
+   text-decoration: none;
+   color: #333333;
+   font-weight: 600;
 }
 
 .education__title {
@@ -778,9 +790,17 @@ h6 {
    color: #3172ff;
 }
 
+.ico-adress {
+   margin-top: 7px;
+}
+
 .icon {
    display: flex;
    align-items: center;
+
+   img {
+      margin-right: 5px;
+   }
 }
 
 
@@ -796,9 +816,6 @@ h6 {
    @media (max-width: 768px) {
       order: 1;
       width: 100%;
-   }
-
-   @media (max-width: 425px) {
       font-size: 30px;
    }
 }
