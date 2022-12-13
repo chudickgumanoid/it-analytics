@@ -1188,6 +1188,10 @@ a.education__number {
   }
 }
 
+.loc_icon {
+  margin-right: 5px;
+}
+
 .education-small__content {
   display: -webkit-box;
   display: -ms-flexbox;
