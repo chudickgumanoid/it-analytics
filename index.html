@@ -12,8 +12,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap"
         rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
-    <script src="js/burger-menu.js"></script>
-    <script src="js/phoneinput.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js"
@@ -35,11 +33,20 @@
                     </div>
                     <nav class="header__menu">
                         <ul class="header__list">
-                            <!-- <li><a class="nav__link" href="#">Услуги</a></li> -->
-                            <!-- <li><a class="nav__link" href="#">Учебный центр</a></li> -->
-                            <li><a class="nav__link" href="contacts.html">Контакты</a></li>
-                            <li><a class="nav__link" href="aboutus.html">О нас</a></li>
+                            <li><a class="nav__link" href="contacts.html" data-lang="contact">Контакты</a></li>
+                            <li><a class="nav__link" href="aboutus.html" data-lang="about">О нас</a></li>
                         </ul>
+                        <select class="langs">
+                            <option value="rus" class="langs__item">
+                                Рус
+                            </option>
+                            <option value="kaz" class="langs__item">
+                                Қаз
+                            </option>
+                            <option value="eng" class="langs__item">
+                                Eng
+                            </option>
+                        </select>
                     </nav>
                 </div>
             </div>
@@ -48,85 +55,104 @@
         <div class="intro">
             <div class="container">
                 <div class="intro__inner">
-                    <h1 class="intro__title">Мы создаем легкие решения сложных задач</h1>
+                    <h1 class="intro__title" data-lang="we_create">Мы создаем легкие решения сложных задач</h1>
 
-                    <a class="btn" href="aboutus.html">Подробнее</a>
+                    <a class="btn" href="aboutus.html" data-lang="more">Подробнее</a>
                 </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="quality">
+                <img class="quality__img" src="/image/star_quality.png" alt="">
+                <img class="quality__img" src="/image/rating.png" alt="">
             </div>
         </div>
 
         <section class="section">
             <div class="container">
                 <div class="section__header">
-                    <h2 class="section__title">Мы создаем приложения
-                        для крупных корпораций</h2>
+                    <h2 class="section__title" data-lang="we_create_big">Мы создаем приложения для крупных корпораций
+                    </h2>
                     <div class="section__text">
-                        <p>Специализируемся на создании и внедрении ПО,
-                            мобильных приложений, интеграций и сложных систем
-                            для автоматизации бизнес-процессов. </p>
+                        <p data-lang="spec">Специализируемся на создании и внедрении ПО, мобильных приложений,
+                            интеграций и сложных систем для автоматизации бизнес-процессов.</p>
                     </div>
                 </div>
                 <div class="about">
                     <a href="https://greenkassa.kz/" class="about__item" target="blank">
-                        <div class="green_kassa about__image ">
+                        <div class="about__image">
                             <img src="image/Logo_green_kassa.svg" alt="green_kassa">
                         </div>
                         <div class="about__text">
                             <h2>GREEn Kassa</h2>
-                            <p>Онлайн касса</p>
+                            <p data-lang="online_cash">Онлайн касса</p>
                         </div>
                     </a>
                     <a href="https://ofd.ttc.kz/" class="about__item" target="blank">
-                        <div class="about__image ttc">
+                        <div class="about__image">
                             <img src="image//ttc.svg" alt="ttc">
                         </div>
                         <div class="about__text">
-                            <h2>ОФД Транстелеком</h2>
-                            <p>Оператор фискальных данных</p>
+                            <h2 data-lang="ofd_ttc">ОФД Транстелеком</h2>
+                            <p data-lang="ofd">Оператор фискальных данных</p>
                         </div>
                     </a>
                     <a href="https://ofd.beeline.kz/" class="about__item" target="blank">
-                        <div class="about__image beeline">
+                        <div class="about__image">
                             <img src="image/Beeline2.svg" alt="beeline">
                         </div>
                         <div class="about__text">
-                            <h2>ОФД Beeline</h2>
-                            <p>Оператор фискальных данных</p>
+                            <h2 data-lang="ofd_bee">ОФД Beeline</h2>
+                            <p data-lang="ofd">Оператор фискальных данных</p>
                         </div>
                     </a>
-                </div>
-                <div class="about">
                     <a href="https://ikassa.kg/" class="about__item" target="blank">
-                        <div class="about__image ofd24">
+                        <div class="about__image">
                             <img src="image/Logo_ikassa.svg" alt="ttc">
                         </div>
                         <div class="about__text">
                             <h2>IKASSA</h2>
-                            <p>Онлайн касса</p>
-                        </div>
-                    </a>
-                    <a href="https://tisuchet.kz/" class="about__item" target="blank">
-                        <div class="about__image tis">
-                            <img src="image/Logo_TIS.svg" alt="tis">
-                        </div>
-                        <div class="about__text">
-                            <h2>Учёт.ТИС</h2>
-                            <p>Трехкомпонентная Интегрированная Система</p>
+                            <p data-lang="online_cash">Онлайн касса</p>
                         </div>
                     </a>
                     <a href="https://ekassa.kg/" class="about__item" target="blank">
-                        <div class="about__image OnlineKassa">
+                        <div class="about__image">
                             <img src="image/Logo_onlinekassa.svg" alt="OnlineKassa">
                         </div>
                         <div class="about__text">
                             <h2>OnlineKassa</h2>
-                            <p>Онлайн касса</p>
+                            <p data-lang="online_cash">Онлайн касса</p>
+                        </div>
+                    </a>
+                    <a href="https://tisuchet.kz/" class="about__item" target="blank">
+                        <div class="about__image">
+                            <img src="image/Logo_TIS.svg" alt="tis">
+                        </div>
+                        <div class="about__text">
+                            <h2 data-lang="tis_short">Учёт.ТИС</h2>
+                            <p data-lang="tis_full">Трехкомпонентная Интегрированная Система</p>
+                        </div>
+                    </a>
+                    <a href="https://ekassa.kg/" class="about__item" target="blank">
+                        <div class="about__image">
+                            <img src="image/Logo_onlinekassa.svg" alt="OnlineKassa">
+                        </div>
+                        <div class="about__text">
+                            <h2>Halyk Bank</h2>
+                            <p data-lang="fiscal_op">Фискальные операции</p>
+                        </div>
+                    </a>
+                    <a href="https://lk.ofd24.kg/login" class="about__item" target="blank">
+                        <div class="about__image">
+                            <img src="image/Logo_ofd24.png" alt="OnlineKassa">
+                        </div>
+                        <div class="about__text">
+                            <h2 data-lang="ofd_kg">ОФД TMG</h2>
+                            <p data-lang="ofd">Оператор фискальных данных</p>
                         </div>
                     </a>
                 </div>
-                <div class="btn__conteiner">
-                </div>
-
             </div>
         </section>
 
@@ -134,8 +160,7 @@
         <section class="service">
             <div class="container">
                 <div class="service__header">
-                    <h2 class="service__title">Наши направления, в которых
-                        мы специализируемся.
+                    <h2 class="service__title" data-lang="direction">Наши направления, в которыхмы специализируемся.
                     </h2>
                 </div>
                 <div class="service__content">
@@ -144,8 +169,8 @@
                             <img src="image/about-1.jpg">
                         </div>
                         <div class="service__text">
-                            <h2><span class="color__text">01.</span> Аналитика</h2>
-                            <p>Используем методы бизнес-анализа
+                            <h2><span class="color__text">01.</span> <span data-lang="analytics">Аналитика</span></h2>
+                            <p data-lang="service_use">Используем методы бизнес-анализа
                                 для исследования потребностей деятельности
                                 организаций с целью определения проблем бизнеса
                                 и предложения их решения.</p>
@@ -156,8 +181,8 @@
                             <img src="image/about-2.jpg">
                         </div>
                         <div class="service__text">
-                            <h2><span class="color__text">02.</span> UX/UI Дизайн</h2>
-                            <p>Креативный специалист, с помощью дизайна поможет
+                            <h2><span class="color__text">02.</span> <span data-lang="ui_ux">UX/UI Дизайн</span></h2>
+                            <p data-lang="service_creative">Креативный специалист, с помощью дизайна поможет
                                 типичному пользователю быстро и легко понять,
                                 как пользоваться продуктом.</p>
                         </div>
@@ -167,8 +192,8 @@
                             <img src="image/about-3.jpg">
                         </div>
                         <div class="service__text">
-                            <h2><span class="color__text">03.</span> Разработка ПО</h2>
-                            <p>Специализируемся на создании и внедрении ПО,
+                            <h2><span class="color__text">03.</span> <span data-lang="dev_po">Разработка ПО</span></h2>
+                            <p data-lang="service_spec">Специализируемся на создании и внедрении ПО,
                                 мобильных приложений, интеграций и сложных систем
                                 для автоматизации бизнес-процессов</p>
                         </div>
@@ -183,32 +208,41 @@
             <div class="container">
                 <div class="education__content">
                     <div class="education__text">
-                        <h2 class="education__title">Учебный центр</h2>
-                        <p>Наша компания проводит учебные курсы по подготовке разработчиков по следующим языкам
-                            программирования:<br>
-                            <b>1. Elixir</b> – 25 тыс тенге в месяц, длительность курса 6 месяцев (два раза в неделю по 3
-                            часа),
-                            форма
-                            обучения офлайн и онлайн.<br>
-                            <b>2. Java</b> – 25 тыс тенге в месяц, длительность курса 6 месяцев (два раза в неделю
-                            по 3
-                            часа), форма обучения офлайн и онлайн.<br>
-                            <b>3. JavaScript</b> – 25 тыс тенге в месяц. Длительность курсов - 6 месяцев. Курсы проводятся 2 (два) раза в неделю по 3 (три)
-                            часа. Предусматриваются офлайн и онлайн формы обучения.
-                        <h5>По итогам успешной сдачи тестов, вы можете быть трудоустроены к нам в компанию.</h5>
+                        <h2 class="education__title" data-lang="training_center">Учебный центр</h2>
+                        <p data-lang="edu_our">Наша компания проводит учебные курсы по подготовке разработчиков по
+                            следующим языкам
+                            программирования:</p>
+                        <b data-lang="elixir">1. Elixir</b><span data-lang="elixir_desc">– 25 тыс тенге в месяц,
+                            длительность курса 6 месяцев (два раза в неделю по 3 часа), форма обучения офлайн и
+                            онлайн.</span><br>
+                        <b data-lang="java">2. Java</b><span data-lang="java_desc"> – 25 тыс тенге в месяц, длительность
+                            курса 6 месяцев (два раза в неделю по 3 часа), форма обучения офлайн и онлайн.</span><br>
+                        <b data-lang="js">3. JavaScript</b><span data-lang="js_desc">– 25 тыс тенге в месяц.
+                            Длительность курсов - 6 месяцев. Курсы проводятся 2 (два) раза в неделю по 3 (три) часа.
+                            Предусматриваются офлайн и онлайн формы обучения.</span>
+                        <h5 data-lang="edu_result">По итогам успешной сдачи тестов, вы можете быть трудоустроены к нам в
+                            компанию.</h5>
                         <br>
                         <div class="edu__con">
                             <div class="edu__adress">
-                                <b>Адрес</b><br>
-                                <b><span class="icon ico-adress"><img src="/image/location_on.svg" alt="">г. Караганда ул.Жамбыла 4/13</span></b>
+                                <b data-lang="edu_adress">Адрес</b><br>
+                                <b><span class="icon ico-adress">
+                                        <img src="/image/location_on.svg" alt="">
+                                        <p data-lang="edu_add">г. Караганда ул.Жамбыла 4/13</p>
+                                    </span></b>
                             </div>
                             <div class="edu__number">
-                                <b>Хотите записаться на курсы?</b>
-                                <b><span class="icon"><i class="ri-telegram-fill"></i><a class="education__number"
-                                            href="https://t.me/Dzhannis" target="_blank">+7 771 033 08 35 Джаннета</a></span></b></p>
+                                <b data-lang="edu_want">Хотите записаться на курсы?</b>
+                                <b>
+                                    <span class="icon"><i class="ri-telegram-fill"></i>
+                                        <a class="education__number" href="https://t.me/Dzhannis" target="_blank"
+                                            data-lang="edu_phone">
+                                            +7 771 033 08 35 Джаннета
+                                        </a>
+                                    </span>
+                                </b>
                             </div>
                         </div>
-                        <!-- <a class="service__link" href="#">Подробнее</a> -->
                     </div>
                     <div class="education__img">
                         <img src="image/about-8.jpg">
@@ -220,24 +254,33 @@
         <section class="education-small">
             <div class="container">
                 <div class="education-small__content">
-                    <h2 class="education-small__title">Учебный центр</h2>
+                    <h2 class="education-small__title" data-lang="training_center">Учебный центр</h2>
                     <div class="education-small__text">
-                        <p>Наша компания проводит учебные курсы по подготовке разработчиков по следующим языкам
-                            программирования:<br>
-                            <b>1. Elixir</b> – бесплатно, длительность курса 6 месяцев (два раза в неделю по 3
-                            часа),
-                            форма
-                            обучения офлайн и онлайн.<br>
-                            <b>2. Java</b> – 20 тыс тенге в месяц, длительность курса 6 месяцев (два раза в неделю
-                            по 3
-                            часа), форма обучения офлайн и онлайн.<br>
-                        <h5>По итогам успешной сдачи тестов, вы можете быть трудоустроены к нам в компанию.</h5>
-                        <br><b>Адрес</b>
-                        <b><img class="loc_icon" src="/image/location_on.svg" alt="">г. Караганда ул.Жамбыла 4/13</b><br>
-                        <b>Хотите записаться на курсы?</b>
+                        <p data-lang="edu_our">Наша компания проводит учебные курсы по подготовке разработчиков по
+                            следующим языкам
+                            программирования:</p>
+                        <p><b data-lang="elixir">1. Elixir</b><span data-lang="elixir_desc">– 25 тыс тенге в месяц,
+                            длительность курса 6 месяцев
+                            (два раза в неделю по 3 часа), форма обучения офлайн и онлайн.</span></p>
+                        <p><b data-lang="java">2. Java</b><span data-lang="java_desc"> – 25 тыс тенге в месяц, длительность
+                            курса 6 месяцев (два
+                            раза в неделю по 3 часа), форма обучения офлайн и онлайн.</span></p>
+                        <p><b data-lang="js">3. JavaScript</b><span data-lang="js_desc">– 25 тыс тенге в месяц.
+                            Длительность курсов - 6 месяцев.
+                            Курсы проводятся 2 (два) раза в неделю по 3 (три) часа.
+                            Предусматриваются офлайн и онлайн формы обучения.</span></p>
+                        <h5 data-lang="edu_result">По итогам успешной сдачи тестов, вы можете быть трудоустроены к нам в
+                            компанию.</h5>
+                        <br>
+                        <b data-lang="edu_adress">Адрес</b>
+                        <b><img class="loc_icon" src="/image/location_on.svg" alt="">г. Караганда ул.Жамбыла
+                            4/13</b><br>
+                        <b data-lang="edu_want">Хотите записаться на курсы?</b>
                         <b><span class="icon"><i class="ri-telegram-fill"></i><a class="education__number"
-                                    href="https://t.me/ja8xxx" target="_blank">+7 777 658 1822 Юрий
-                                    Викторович</a></span></b></p>
+                                    href="https://t.me/ja8xxx" target="_blank" data-lang="edu_phone">
+                                    +7 771 033 08 35 Джаннета
+                                </a>
+                            </span></b>
                     </div>
                     <div class="education-small__img">
                         <img src="image/about-8.jpg">
@@ -252,23 +295,23 @@
             <div class="container">
                 <div class="feedback__content">
                     <div class="feedback__text">
-                        <h2 class="feedback_title">Закажи обратный звонок</h2>
-                        <p>Получите бесплатную консультацию, прямо сейчас!</p>
+                        <h2 class="feedback_title" data-lang="callback">Закажи обратный звонок</h2>
+                        <p data-lang="free_consultation">Получите бесплатную консультацию, прямо сейчас!</p>
                     </div>
                     <div class="box">
                         <form class="obratnuj-zvonok" autocomplete="off" action='email.php' method='post'>
                             <div class="form-zvonok">
                                 <div>
-                                    <label>Имя <span>*</span></label>
+                                    <label data-lang="form_name">Имя <span>*</span></label>
                                     <input type='text' placeholder="Введите Имя" name='username' required>
                                 </div>
                                 <div>
-                                    <label>Телефон<span>*</span></label>
+                                    <label data-lang="form_phone">Телефон<span>*</span></label>
                                     <input id='tel' type='tel' data-tel-input placeholder="Введите номер" maxlength="18"
                                         name='usernumber' required>
                                 </div>
                                 <div>
-                                    <label>Сообщение</label>
+                                    <label data-lang="form_msg">Сообщение</label>
                                     <textarea class="feedback__msg" type='text' placeholder="Введите Сообщение"
                                         name='question'></textarea>
                                 </div>
@@ -276,7 +319,7 @@
                             </div>
                         </form>
                     </div>
-                    <p>Мы не шлем спам, и не передаем никому ваши данные.</p>
+                    <p data-lang="form_not_send">Мы не шлем спам, и не передаем никому ваши данные.</p>
                 </div>
             </div>
         </section>
@@ -290,8 +333,11 @@
     <script>
         window.onload = function () {
             $('#tel').mask('+7 (999) 999-99-99');
-        }     
+        }
     </script>
+    <script src="js/burger-menu.js"></script>
+    <script src="js/script.js" type="module"></script>
+    <script src="js/phoneinput.js"></script>
 </body>
 
 </html>

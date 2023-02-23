@@ -32,11 +32,20 @@
                         </div>
                         <nav class="header__menu">
                             <ul class="header__list">
-                                <!-- <li><a class="nav__link" href="#">Услуги</a></li> -->
-                                <!-- <li><a class="nav__link" href="#">Учебный центр</a></li> -->
-                                <li><a class="nav__link" href="contacts.html">Контакты</a></li>
-                                <li><a class="nav__link" href="aboutus.html">О нас</a></li>
+                                <li><a class="nav__link" href="contacts.html" data-lang="contact">Контакты</a></li>
+                                <li><a class="nav__link" href="aboutus.html" data-lang="about">О нас</a></li>
                             </ul>
+                            <select class="langs">
+                                <option value="rus" class="langs__item">
+                                    Рус
+                                </option>
+                                <option value="kaz" class="langs__item">
+                                    Қаз
+                                </option>
+                                <option value="eng" class="langs__item">
+                                    Eng
+                                </option>
+                            </select>
                         </nav>
                     </div>
                 </div>
@@ -45,9 +54,13 @@
             <section class="contact">
                 <div class="container">
                     <div class="contact__text">
-                        <h2>Контакты</h2>
-                        <p> Адрес: Республика Казахстан, город Караганда, улица Жамбыла, 4/13, Бизнес-центр «ZERE» <br>
+                        <h2 data-lang="contact">Контакты</h2>
+                        <p> <span data-lang="contact_adress">
+                            Адрес: Республика Казахстан, город Караганда, улица Жамбыла, 4/13, Бизнес-центр «ZERE» <br>
+                        </span> 
+                        <span>
                             E-mail: info@itanalytics.kz</p>
+                        </span>    
                     </div>
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41187.69330354958!2d73.07765510000004!3d49.819326600000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424346d07f93c597%3A0xd57359f252800bb3!2z0YPQuy4g0JbQsNC80LHRi9C70LAgNCwg0JrQsNGA0LDQs9Cw0L3QtNCwIDEwMDAwMA!5e0!3m2!1sru!2skz!4v1649821701028!5m2!1sru!2skz"
@@ -64,4 +77,7 @@
 
     </div>
 
+    <script src="js/script.js" type="module"></script>
 </body>
+
+</html>

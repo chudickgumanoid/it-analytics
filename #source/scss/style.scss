@@ -92,6 +92,7 @@ h6 {
    @media (max-width: 425px) {
       font-size: 40px;
    }
+
    @media (max-width: 320px) {
       font-size: 30px;
    }
@@ -132,6 +133,15 @@ h6 {
    left: 0;
    right: 0;
    z-index: 1000;
+
+   &__menu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @media (max-width: 768px) {
+         flex-direction: column;
+      }
+   }
 }
 
 .header__other {
@@ -269,6 +279,19 @@ h6 {
    }
 }
 
+
+.langs {
+   background: #24ade4;
+   padding: 10px;
+   border-radius: 100px;
+   border: none;
+   outline: none;
+   color: #fff;
+
+   &__item {
+   }
+}
+
 /* Nav */
 .nav {
    font-size: 14px;
@@ -358,10 +381,6 @@ h6 {
    color: #fff;
 }
 
-.btn__conteiner {
-   text-align: center;
-}
-
 /* Section */
 .section {
    padding: 80px 0;
@@ -417,64 +436,65 @@ h6 {
 
 /* About */
 .about {
-   display: flex;
-   justify-content: space-between;
-   margin: 70px auto 30px;
+   display: grid;
+   grid-template: 1fr / 1fr 1fr 1fr;
 
    @media (max-width: 768px) {
-      flex-direction: column;
+      grid-template: 1fr / 1fr 1fr;
+   }
+
+   @media (max-width: 425px) {
+      grid-template: 1fr / 1fr;
+   }
+
+   &__item {
+      gap: 20px;
+      padding-bottom: 10px;
+      text-decoration: none;
       display: flex;
-      flex-wrap: wrap;
+      color: #000;
+      transition: all 0.3s 0s ease;
+
+      &:last-child {
+         padding-bottom: 0;
+      }
+
+      &:hover {
+         opacity: 0.7;
+      }
+   }
+
+   &__image {
+      height: 80px;
+      width: 80px;
+      display: flex;
       justify-content: center;
       align-items: center;
-      margin: 0;
+
+      img {
+         width: 100%;
+         height: auto;
+         object-fit: cover;
+
+      }
+   }
+
+   &__text {
+      width: 80%;
    }
 }
 
-.about__image {
-   width: 150px;
-   height: 150px;
-   margin-top: -10px;
-   margin-right: 20px;
-}
-
-.about .ofd24,
-.about .tis,
-.about .OnlineKassa,
-.about .ttc,
-.about .beeline,
-.about .green_kassa {
-   width: 80px;
-   height: 80px;
-}
-
-.about__image img {
-   width: 100%;
-   height: auto;
-}
-
-.about__item {
+.quality {
    display: flex;
-   width: 30%;
+   justify-content: center;
+   align-items: center;
+   margin-top: 50px;
+   gap: 50px;
 
-   @media (max-width: 768px) {
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      margin: 20px 0;
-   }
-}
-
-.about__item:hover {
-   opacity: 0.7;
-}
-
-.about__text {
-   width: 250px;
-   height: 100px;
-
-   @media (max-width: 768px) {
-      height: 100%;
+   &__img {
+      width: 20%;
+      height: auto;
+      object-fit: cover;
    }
 }
 
@@ -791,6 +811,7 @@ a.education__number {
    font-size: 24px;
    margin-right: 5px;
    color: #3172ff;
+
    @media (max-width: 768px) {
       margin: 0;
    }
@@ -828,9 +849,10 @@ a.education__number {
    }
 }
 
-.loc_icon{
+.loc_icon {
    margin-right: 5px;
 }
+
 .education-small__content {
    display: flex;
    justify-content: space-between;
@@ -874,9 +896,8 @@ a.education__number {
       margin: 15px 0 0 0;
       display: flex;
       flex-direction: column;
-      .feedback__number{
-         
-      }
+
+      .feedback__number {}
    }
 }
 
@@ -894,19 +915,23 @@ a.education__number {
       width: 100%;
    }
 }
-.feedback__content{
+
+.feedback__content {
    margin: 0 -15px;
 }
-.feedback__num{
+
+.feedback__num {
    display: inline-block;
    width: 100%;
    order: 4;
 }
-.feedback_title{
-   p{
+
+.feedback_title {
+   p {
       width: 100%;
    }
 }
+
 .box form {
    text-align: center;
 }
@@ -918,6 +943,7 @@ input {
    box-sizing: border-box;
    transition: 0.5s;
    border-radius: 40px;
+
    @media (max-width: 425px) {
       font-size: 16px;
    }
@@ -984,13 +1010,15 @@ input {
    width: 100%;
    box-sizing: border-box;
 }
-.blockkk{
+
+.blockkk {
    @media (max-width: 320px) {
       display: flex;
       flex-direction: column;
       margin: 0;
    }
 }
+
 .feedback__msg {
    width: 100%;
    resize: vertical;
@@ -1002,15 +1030,18 @@ input {
    font-size: 20px;
    box-sizing: border-box;
    border-radius: 40px 40px 0px 40px;
+
    @media (max-width: 425px) {
       font-size: 16px;
    }
 }
-.feedback__number{
+
+.feedback__number {
    cursor: pointer;
    text-decoration: none;
    color: #000;
 }
+
 .form-zvonok label {
    margin-bottom: 5px;
    font-weight: bold;
