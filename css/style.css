@@ -162,15 +162,16 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 50px 0px;
+  padding: 20px 0 0 0;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
 }
 
-.contact__text {
-  padding: 0 0 40px;
+.mt {
+  margin-top: 20px;
 }
+
 .contact__text h2 {
   font-weight: 700;
   font-size: 24px;

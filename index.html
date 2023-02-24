@@ -232,12 +232,6 @@
                                         <p data-lang="edu_add">г. Караганда ул.Жамбыла 4/13</p>
                                     </span>
                                 </b>
-                                <b>
-                                    <span class="icon ico-adress">
-                                        <img src="/image/location_on.svg" alt="">
-                                        <p data-lang="edu_add_2">г. Астана, ул. Достык 4, нп. 1, 3 этаж</p>
-                                    </span>
-                                </b>
                             </div>
                             <div class="edu__number">
                                 <b data-lang="edu_want">Хотите записаться на курсы?</b>
@@ -299,12 +293,6 @@
                                 <p data-lang="edu_add">г. Караганда ул.Жамбыла 4/13</p>
                             </span>
                         </b>
-                        <b>
-                            <span class="icon ico-adress">
-                                <img src="/image/location_on.svg" alt="">
-                                <p data-lang="edu_add_2">г. Астана, ул. Достык 4, нп. 1, 3 этаж</p>
-                            </span>
-                        </b>
                         <br>
                         <b data-lang="edu_want">Хотите записаться на курсы?</b>
                         <b>
@@ -336,19 +324,20 @@
                             <div class="form-zvonok">
                                 <div>
                                     <label data-lang="form_name">Имя <span>*</span></label>
-                                    <input type='text' placeholder="Введите Имя" name='username' required>
+                                    <input type='text' placeholder="Введите Имя" name='username' required
+                                        data-lang="send_name">
                                 </div>
                                 <div>
                                     <label data-lang="form_phone">Телефон<span>*</span></label>
                                     <input id='tel' type='tel' data-tel-input placeholder="Введите номер" maxlength="18"
-                                        name='usernumber' required>
+                                        name='usernumber' required data-lang="send_phone">
                                 </div>
                                 <div>
                                     <label data-lang="form_msg">Сообщение</label>
                                     <textarea class="feedback__msg" type='text' placeholder="Введите Сообщение"
-                                        name='question'></textarea>
+                                        name='question' data-lang="send_msg"></textarea>
                                 </div>
-                                <input class="bot-send-mail" type='submit' value='Отправить заявку'>
+                                <input class="bot-send-mail" type='submit' value='Отправить заявку' data-lang="send_btn">
                             </div>
                         </form>
                     </div>

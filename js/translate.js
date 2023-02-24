@@ -46,7 +46,11 @@ export const translateLanterus = {
   'release': "мы реализуем!",
   'desc_com': "Флагманским продуктом нашей компании является программа по приему и обработке данных, передаваемых с контрольно-кассовых машин (далее - ККМ) на сервер оператора фискальных данных (далее - ОФД). ПО полностью соответствует необходимым техническим требованиям и нормативно-правовым актам РК, регламентирующие функционирование системы ОФД.",
   'specialist': "Специалисты ТОО «IT Analytics» имеют высокую квалификацию и большой опыт работы с использованием последних достижений информационных технологий для разработки высоконагруженных, масштабируемых информационных систем.",
-  'edu_add_2': "г.Астана, ул. Достык 4, нп. 1, 3 этаж"
+  'edu_add_2': "г.Астана, ул. Достык 4, нп. 1, 3 этаж",
+  'send_phone': "Введите номер",
+  'send_name': "Введите Имя",
+  'send_msg': "Введите Сообщение",
+  'send_btn': "Отправить заявку"
 }
 
 export const translateLanteeng = {
@@ -97,7 +101,11 @@ export const translateLanteeng = {
   'release': "we are implementing!",
   'desc_com': "The flagship product of our company is a program for receiving and processing data transmitted from cash registers (hereinafter referred to as KKM) to the server of the fiscal data operator (hereinafter referred to as OFD). The software fully complies with the necessary technical requirements and regulatory legal acts of the Republic of Kazakhstan regulating the functioning of the OFD system.",
   'specialist': "Specialists of IT Analytics LLP are highly qualified and have extensive experience using the latest achievements of information technology to develop highly loaded, scalable information systems.",
-  'edu_add_2': "Astana, Dostyk str. 4, np. 1, 3rd floor"
+  'edu_add_2': "Astana, Dostyk str. 4, np. 1, 3rd floor",
+  'send_phone': "Enter the number",
+  'send_name': "Enter the Name",
+  'send_msg': "Enter a Message",
+  'send_btn': "Send a request"
 }
 
 
@@ -149,5 +157,9 @@ export const translateLanteKaz = {
   'босату': "Біз іске асырамыз!",
   'desc_com': "біздің компанияның флагмандық өнімі бақылау-кассалық машиналардан (бұдан әрі - БКМ) фискалдық деректер операторының серверіне (бұдан әрі - ФДҚ) берілетін деректерді қабылдау және өңдеу жөніндегі бағдарлама болып табылады. ҚҚҚ жүйесінің жұмыс істеуін регламенттейтін ҚР нормативтік-құқықтық актілеріне және қажетті техникалық талаптарға толық сәйкес келеді.",
   'specialist': "IT Analytics ЖШС мамандары жоғары жүктелген, масштабталатын Ақпараттық жүйелерді әзірлеу үшін ақпараттық технологиялардың соңғы жетістіктерін пайдалана отырып, жоғары біліктілікке және үлкен жұмыс тәжірибесіне ие.",
-  'edu_add_2': "Астана қ., Достық к-сі, 4, нп. 1, 3 қабат"
+  'edu_add_2': "Астана қ., Достық к-сі, 4, нп. 1, 3 қабат",
+  'send_phone': "Нөмірді енгізіңіз",
+  'send_name': 'Атын енгізіңіз',
+  'send_msg': "Хабарламаны енгізіңіз",
+  'send_btn': "өтінім жіберу"
 }

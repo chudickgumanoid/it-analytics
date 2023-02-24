@@ -21,15 +21,33 @@ updateLang()
 function updateLang() {
   langElems.forEach((el) => {
     const lang = el.dataset.lang
+    console.log(el.value)
 
     if (localStorage.getItem("lang") == "eng") {
-      el.textContent = translateLanteeng[lang]
+      if (el.placeholder != undefined && el.value != undefined) {
+        el.placeholder = translateLanteeng[lang]
+        el.value = translateLanteeng[lang]
+      }
+      else
+        el.textContent = translateLanteeng[lang]
     }
+
     if (localStorage.getItem("lang") == "rus") {
-      el.textContent = translateLanterus[lang]
+      if (el.placeholder != undefined && el.value != undefined) {
+        el.placeholder = translateLanterus[lang]
+        el.value = translateLanterus[lang]
+      }
+      else
+        el.textContent = translateLanterus[lang]
     }
+
     if (localStorage.getItem("lang") == "kaz") {
-      el.textContent = translateLanteKaz[lang]
+      if (el.placeholder != undefined && el.value != undefined) {
+        el.placeholder = translateLanteKaz[lang]
+        el.value = translateLanteKaz[lang]
+      }
+      else
+        el.textContent = translateLanteKaz[lang]
     }
   })
 }
