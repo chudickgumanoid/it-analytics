@@ -746,6 +746,9 @@ h6 {
 .about__text {
   width: 80%;
 }
+.about__text h2 {
+  font-weight: 700;
+}
 
 .quality {
   display: -webkit-box;
