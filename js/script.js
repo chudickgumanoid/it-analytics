@@ -51,3 +51,40 @@ function updateLang() {
     }
   })
 }
+
+const qualityImgs = document.querySelectorAll('.quality__img');
+
+qualityImgs.forEach(img => {
+  img.addEventListener('click', () => {
+    const fullscreenDiv = document.createElement('div');
+    fullscreenDiv.classList.add('fullscreen');
+    document.body.appendChild(fullscreenDiv);
+
+    const clickedImg = event.target;
+    const fullscreenImg = document.createElement('img');
+    fullscreenImg.src = clickedImg.src;
+    fullscreenImg.alt = clickedImg.alt;
+    fullscreenImg.classList.add('fullscreen__img');
+    fullscreenDiv.appendChild(fullscreenImg);
+
+    const closeBtn = document.createElement('span');
+    closeBtn.innerHTML = '&times;';
+    closeBtn.classList.add('fullscreen__close');
+    fullscreenDiv.appendChild(closeBtn);
+
+    closeBtn.addEventListener('click', () => {
+      fullscreenDiv.remove();
+      document.body.style.overflow = '';
+    });
+
+    fullscreenDiv.addEventListener('click', (event) => {
+      if (event.target === fullscreenDiv) {
+        fullscreenDiv.remove();
+        document.body.style.overflow = '';
+      }
+    });
+
+  });
+});
+
+
