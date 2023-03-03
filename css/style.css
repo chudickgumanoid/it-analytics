@@ -821,12 +821,23 @@ h6 {
   margin-top: 50px;
   gap: 50px;
 }
+@media (max-width: 580px) {
+  .quality {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
 .quality__img {
   width: 20%;
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
   cursor: pointer;
+}
+@media (max-width: 580px) {
+  .quality__img {
+    width: 33%;
+  }
 }
 
 /* Service */
