@@ -50,6 +50,7 @@ export const translateLanterus = {
   'send_phone': "Введите номер",
   'send_name': "Введите Имя",
   'send_msg': "Введите Сообщение",
+  'next_code': "IT школа",
   'send_btn': "Отправить заявку"
 }
 
@@ -105,6 +106,7 @@ export const translateLanteeng = {
   'send_phone': "Enter the number",
   'send_name': "Enter the Name",
   'send_msg': "Enter a Message",
+  'next_code': "IT School",
   'send_btn': "Send a request"
 }
 
@@ -161,5 +163,6 @@ export const translateLanteKaz = {
   'send_phone': "Нөмірді енгізіңіз",
   'send_name': 'Атын енгізіңіз',
   'send_msg': "Хабарламаны енгізіңіз",
+  'next_code': "IT мектебі",
   'send_btn': "өтінім жіберу"
 }
