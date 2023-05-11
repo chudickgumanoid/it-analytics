@@ -1,4 +1,4 @@
-import { translateLanteeng, translateLanterus, translateLanteKaz } from "./translate.js"
+import { translateLangEng, translateLangRus, translateLangKaz } from "./translate.js"
 
 if (localStorage.getItem("lang") == undefined) {
   localStorage.setItem("lang", "rus")
@@ -25,29 +25,29 @@ function updateLang() {
 
     if (localStorage.getItem("lang") == "eng") {
       if (el.placeholder != undefined && el.value != undefined) {
-        el.placeholder = translateLanteeng[lang]
-        el.value = translateLanteeng[lang]
+        el.placeholder = translateLangEng[lang]
+        el.value = translateLangEng[lang]
       }
       else
-        el.textContent = translateLanteeng[lang]
+        el.textContent = translateLangEng[lang]
     }
 
     if (localStorage.getItem("lang") == "rus") {
       if (el.placeholder != undefined && el.value != undefined) {
-        el.placeholder = translateLanterus[lang]
-        el.value = translateLanterus[lang]
+        el.placeholder = translateLangRus[lang]
+        el.value = translateLangRus[lang]
       }
       else
-        el.textContent = translateLanterus[lang]
+        el.textContent = translateLangRus[lang]
     }
 
     if (localStorage.getItem("lang") == "kaz") {
       if (el.placeholder != undefined && el.value != undefined) {
-        el.placeholder = translateLanteKaz[lang]
-        el.value = translateLanteKaz[lang]
+        el.placeholder = translateLangKaz[lang]
+        el.value = translateLangKaz[lang]
       }
       else
-        el.textContent = translateLanteKaz[lang]
+        el.textContent = translateLangKaz[lang]
     }
   })
 }

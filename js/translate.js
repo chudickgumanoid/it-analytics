@@ -1,4 +1,4 @@
-export const translateLanterus = {
+export const translateLangRus = {
   'contact': "Контакты",
   'about': "О нас",
   'we_create': "Мы создаем легкие решения сложных задач",
@@ -51,10 +51,11 @@ export const translateLanterus = {
   'send_name': "Введите Имя",
   'send_msg': "Введите Сообщение",
   'next_code': "IT школа",
+  'kurs1': "Всегда самые выгодные курсы валют",
   'send_btn': "Отправить заявку"
 }
 
-export const translateLanteeng = {
+export const translateLangEng = {
   'contact': "Contacts",
   'about': "About us",
   'we_create': "We create easy solutions to complex problems",
@@ -107,11 +108,12 @@ export const translateLanteeng = {
   'send_name': "Enter the Name",
   'send_msg': "Enter a Message",
   'next_code': "IT School",
+  'kurs1': "Always the most favorable exchange rates",
   'send_btn': "Send a request"
 }
 
 
-export const translateLanteKaz = {
+export const translateLangKaz = {
   'contact': 'Байланыстар',
   'about': 'Біз туралы',
   'we_create': "Біз күрделі мәселелердің жеңіл шешімдерін жасаймыз",
@@ -164,5 +166,6 @@ export const translateLanteKaz = {
   'send_name': 'Атын енгізіңіз',
   'send_msg': "Хабарламаны енгізіңіз",
   'next_code': "IT мектебі",
+  'kurs1': "Әрқашан ең тиімді валюта бағамдары",
   'send_btn': "өтінім жіберу"
 }
