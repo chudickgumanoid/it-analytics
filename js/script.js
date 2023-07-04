@@ -9,7 +9,7 @@ const elemsLang = document.querySelector(".langs")
 elemsLang.value = localStorage.getItem("lang")
 elemsLang.addEventListener("change", (el) => {
   const elItem = el.currentTarget.value
-  console.log(elItem)
+  // console.log(elItem)
   localStorage.removeItem("lang")
   localStorage.setItem("lang", elItem)
 
@@ -21,7 +21,7 @@ updateLang()
 function updateLang() {
   langElems.forEach((el) => {
     const lang = el.dataset.lang
-    console.log(el.value)
+    // console.log(el.value)
 
     if (localStorage.getItem("lang") == "eng") {
       if (el.placeholder != undefined && el.value != undefined) {
