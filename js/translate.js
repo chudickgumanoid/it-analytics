@@ -65,6 +65,10 @@ export const translateLangRus = {
   next_code: "IT школа",
   kurs1: "Всегда самые выгодные курсы валют",
   send_btn: "Отправить заявку",
+  greenmag: "Автоматизация коммисионных магазинов",
+  greenprice: "Автоматизация проведения запупок",
+  findex: "Управление и мониторинг арендататоров",
+  amian: "Система лояльности B2C и B2B",
 };
 
 export const translateLangEng = {
@@ -135,6 +139,10 @@ export const translateLangEng = {
   next_code: "IT School",
   kurs1: "Always the most favorable exchange rates",
   send_btn: "Send a request",
+  greenmag: "Automation of thrift stores",
+  greenprice: "Automation of procurement",
+  findex: "Management and monitoring of tenants",
+  amian: "B2C and B2B loyalty system",
 };
 
 export const translateLangKaz = {
@@ -205,4 +213,8 @@ export const translateLangKaz = {
   next_code: "IT мектебі",
   kurs1: "Әрқашан ең тиімді валюта бағамдары",
   send_btn: "өтінім жіберу",
+  greenmag: "Yнемдеу дүкендерін автоматтандыру",
+  greenprice: "Сатып алуды автоматтандыру",
+  findex: "Жалға алушыларды басқару және бақылау",
+  amian: "B2C және B2B адалдық жүйесі",
 };
