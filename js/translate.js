@@ -69,6 +69,32 @@ export const translateLangRus = {
   greenprice: "Автоматизация проведения запупок",
   findex: "Управление и мониторинг арендататоров",
   amian: "Система лояльности B2C и B2B",
+  about_we:
+    "Мы - казахстанская компания ТОО IT Analytics, занимающаяся разработкой программного обеспечения для бизнеса. Наши решения применяются как в B2B, так и в B2C сегментах. Наши специалисты обладают обширным опытом работы в IT сфере.",
+  about_record:
+    "Наши достижения: - Более миллиона довольных предпринимателей в Казахстане используют наши продукты. - Ежегодно сотни тысяч предпринимателей экономят с нашими решениями от 10 миллионов тенге и выше.",
+  about_product:
+    "Наши продукты: Мы разрабатываем передовые программные решения, включая программу для обработки данных с контрольно-кассовых машин на сервере оператора фискальных данных. Наше ПО полностью соответствует техническим требованиям и законодательству Казахстана, регулирующим работу системы фискализации данных.",
+  about_offer: "Почему предприниматели выбирают наши решения? Мы предлагаем:",
+  about_list_1:
+    "1. Комплексные услуги кассы и ОФД в одном пакете (один платеж за две услуги) - экономьте время и ресурсы.",
+  about_list_2:
+    "2. Индивидуальные договоры с гибкими условиями оплаты с возможностью ПОСТОПЛАТЫ - подберем оптимальное решение для вас.",
+  about_list_3: "3. Единую техническую поддержку.",
+  about_list_4: "4. API для интеграции с учетными системами.",
+  about_list_5: "5. Масштабируемость для вашего роста.",
+  about_list_6: "6. Персонального менеджера и высококачественную поддержку.",
+  about_list_7: "7. Интеграцию с банками и различными методами оплаты.",
+  about_list_8: "8. Гибкие отчеты и аналитику на основе данных.",
+  about_list_9:
+    "9. Решения для номенклатуры, маркировки и других бизнес-процессов.",
+  about_list_10: "10. Систему сбора данных о покупателях.",
+  about_list_11: "11. И многое другое.",
+  about_we_2:
+    'Наша компания TOO "IT Analytics", является оператором фискальных данных на основании приказа Министра финансов Республики Казахстан. Нашим программным обеспечением ОФД пользуются такие компании как Beeline и АО Транстелеком.',
+  about_our_products: "Наши продукты:",
+  about_join:
+    "Присоединяйтесь к нам и стройте успешное будущее своего бизнеса вместе с нами!",
 };
 
 export const translateLangEng = {
@@ -143,6 +169,32 @@ export const translateLangEng = {
   greenprice: "Automation of procurement",
   findex: "Management and monitoring of tenants",
   amian: "B2C and B2B loyalty system",
+  about_we:
+    "We are a Kazakhstani company, IT Analytics LLP, engaged in the development of business software. Our solutions are used in both B2B and B2C segments. Our specialists have extensive experience in the IT field.",
+  about_record:
+    "Our achievements: - More than a million satisfied entrepreneurs in Kazakhstan use our products. - Every year hundreds of thousands of entrepreneurs save from 10 million tenge and above with our solutions.",
+  about_product:
+    "Our products: We develop advanced software solutions, including a program for processing data from cash registers on the server of the fiscal data operator. Our software fully complies with the technical requirements and legislation of Kazakhstan governing the operation of the data fiscalization system.",
+  about_offer: "Why do entrepreneurs choose our solutions? We offer:",
+  about_list_1:
+    "1. Comprehensive cash register and OFD services in one package (one payment for two services) - save time and resources.",
+  about_list_2:
+    "2. Individual contracts with flexible payment terms with the possibility of POST-payment - we will choose the optimal solution for you.",
+  about_list_3: "3. Unified technical support.",
+  about_list_4: "4. API for integration with accounting systems.",
+  about_list_5: "5. Scalability for your growth.",
+  about_list_6: "6. Personal manager and high-quality support.",
+  about_list_7: "7. Integration with banks and various payment methods.",
+  about_list_8: "8. Flexible reports and data-based analytics.",
+  about_list_9:
+    "9. Solutions for nomenclature, labeling and other business processes.",
+  about_list_10: "10. Customer data collection system.",
+  about_list_11: "11. And much more.",
+  about_we_2:
+    'Our company TOO "IT Analytics" is the operator of fiscal data on the basis of the order of the Minister of Finance of the Republic of Kazakhstan. Our OFD software is used by companies such as Beeline and Transtelecom JSC.',
+  about_our_products: "Our products:",
+  about_join:
+    "Join us and build a successful future for your business with us!",
 };
 
 export const translateLangKaz = {
@@ -217,4 +269,30 @@ export const translateLangKaz = {
   greenprice: "Сатып алуды автоматтандыру",
   findex: "Жалға алушыларды басқару және бақылау",
   amian: "B2C және B2B адалдық жүйесі",
+  about_we:
+    "Біз - бизнеске арналған бағдарламалық қамтамасыз етуді әзірлеумен айналысатын қазақстандық IT Analytics ЖШС компаниясымыз. Біздің шешімдеріміз B2B және B2C сегменттерінде қолданылады. Біздің мамандарымыздың IT саласында тәжірибесі мол.",
+  about_record:
+    "Біздің жетістіктеріміз: - Қазақстанда миллионнан астам кәсіпкер біздің өнімдерді пайдаланады. - Жыл сайын жүздеген мың кәсіпкер біздің шешімдерімізбен 10 миллион теңге және одан да көп қаржыны үнемдейді.",
+  about_product:
+    "Біздің өнімдер: Біз фискалдық деректер операторының серверінде бақылау-кассалық машиналардан деректерді өңдеуге арналған бағдарламаны қоса алғанда, озық бағдарламалық шешімдерді әзірлейміз. Біздің БҚ деректерді фискализациялау жүйесінің жұмысын реттейтін Қазақстанның техникалық талаптары мен заңнамасына толық сәйкес келеді.",
+  about_offer: "Неге кәсіпкерлер біздің шешімдерімізді таңдайды? Біз ұсынамыз:",
+  about_list_1:
+    "1. Кешенді кассалық қызметтер және ФДО бір пакетте (екі қызмет үшін бір төлем) - уақыт пен ресурстарды үнемдеңіз.",
+  about_list_2:
+    "2. Кейін төлеу мүмкіндігі бар икемді шарттары бар жеке шарттар - сіз үшін оңтайлы шешімді таңдаймыз.",
+  about_list_3: "3. Бірыңғай техникалық қолдау.",
+  about_list_4: "4. Есептік жүйелермен интеграциялау үшін API.",
+  about_list_5: "5. Сіздің өсуіңізге арналған масштабтау.",
+  about_list_6: "6. Жеке менеджер және жоғары сапалы қолдау.",
+  about_list_7: "7. Банктермен және әртүрлі төлем әдістерімен интеграциялау.",
+  about_list_8: "8. Деректер негізіндегі икемді есептер мен талдаулар.",
+  about_list_9:
+    "9. Номенклатура, таңбалау және басқа бизнес-процестерге арналған шешімдер.",
+  about_list_10: "10. Сатып алушылар туралы деректер жинау жүйесі.",
+  about_list_11: "11. Және тағы басқа.",
+  about_we_2:
+    "Біздің «IT Analytics» ЖШС компаниясы Қазақстан Республикасы Қаржы министрінің бұйрығы негізінде фискалдық деректер операторы болып табылады. Біздің ФДО бағдарламалық қамтамасыз етуімізді Beeline және Транстелеком АҚ сияқты компаниялар пайдаланады.",
+  about_our_products: "Біздің өнімдер:",
+  about_join:
+    "Бізге қосылыңыз және бізбен бірге өз бизнесіңіздің табысты болашағын жасаңыз!",
 };
