@@ -1,7 +1,7 @@
 import { translateLangEng, translateLangRus, translateLangKaz } from "./translate.js"
 
 if (localStorage.getItem("lang") == undefined) {
-  localStorage.setItem("lang", "rus")
+  localStorage.setItem("lang", "kaz")
 }
 
 const langElems = [...document.querySelectorAll("[data-lang]")]

@@ -1151,3 +1151,12 @@ input {
       font-size: 40px;
    }
 }
+
+.footer-logos {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #fff;
+   padding: 16px;
+   width: 100%;
+}
