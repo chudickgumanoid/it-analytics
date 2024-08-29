@@ -481,6 +481,8 @@ h6 {
 .about {
    display: grid;
    grid-template: 1fr / 1fr 1fr 1fr;
+   column-gap: 24px;
+   row-gap: 12px;
 
    @media (max-width: 768px) {
       grid-template: 1fr / 1fr 1fr;

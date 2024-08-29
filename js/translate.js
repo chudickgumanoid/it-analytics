@@ -65,7 +65,8 @@ export const translateLangRus = {
   next_code: "IT школа",
   kurs1: "Всегда самые выгодные курсы валют",
   send_btn: "Отправить заявку",
-  greenmag: "Автоматизация коммисионных магазинов",
+  greenmag:
+    "Автоматизация коммисионных магазинов, ломбардов и магазинов по прокату товаров",
   greenprice: "Автоматизация проведения запупок",
   findex: "Управление и мониторинг арендататоров",
   amian: "Система лояльности B2C и B2B",
@@ -95,6 +96,10 @@ export const translateLangRus = {
   about_our_products: "Наши продукты:",
   about_join:
     "Присоединяйтесь к нам и стройте успешное будущее своего бизнеса вместе с нами!",
+  zanger: "Сервис юридической помощи",
+  green_scan: "Green Scan сервис для сканирования акцизных марок",
+  biling: "Облачный сервис для управления счетами и платежами",
+  kasipodaq: "Федерация профсоюзов Республики Казахстан",
 };
 
 export const translateLangEng = {
@@ -195,6 +200,10 @@ export const translateLangEng = {
   about_our_products: "Our products:",
   about_join:
     "Join us and build a successful future for your business with us!",
+  zanger: "Legal Aid Service",
+  green_scan: "Green Scan service for scanning excise stamps",
+  biling: "Cloud service for managing accounts and payments",
+  kasipodaq: "Federation of Trade Unions of the Republic of Kazakhstan",
 };
 
 export const translateLangKaz = {
@@ -295,4 +304,9 @@ export const translateLangKaz = {
   about_our_products: "Біздің өнімдер:",
   about_join:
     "Бізге қосылыңыз және бізбен бірге өз бизнесіңіздің табысты болашағын жасаңыз!",
+  zanger: "Заң көмегі қызметі",
+  green_scan:
+    "Акциздік маркаларды сканерлеуге арналған Жасыл сканерлеу қызметі",
+  biling: "Шоттар мен төлемдерді басқаруға арналған бұлтты қызмет",
+  kasipodaq: "Қазақстан Республикасының кәсіподақтар Федерациясы",
 };
