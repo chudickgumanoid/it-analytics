@@ -96,7 +96,7 @@ export const translateLangRus = {
   about_our_products: "Наши продукты:",
   about_join:
     "Присоединяйтесь к нам и стройте успешное будущее своего бизнеса вместе с нами!",
-  zanger: "Сервис юридической помощи",
+  zanger: "Сервис по поиску юристов",
   green_scan: "Green Scan сервис для сканирования акцизных марок",
   biling: "Облачный сервис для управления счетами и платежами",
   kasipodaq: "Федерация профсоюзов Республики Казахстан",
@@ -200,7 +200,7 @@ export const translateLangEng = {
   about_our_products: "Our products:",
   about_join:
     "Join us and build a successful future for your business with us!",
-  zanger: "Legal Aid Service",
+  zanger: "Legal search service",
   green_scan: "Green Scan service for scanning excise stamps",
   biling: "Cloud service for managing accounts and payments",
   kasipodaq: "Federation of Trade Unions of the Republic of Kazakhstan",
@@ -304,7 +304,7 @@ export const translateLangKaz = {
   about_our_products: "Біздің өнімдер:",
   about_join:
     "Бізге қосылыңыз және бізбен бірге өз бизнесіңіздің табысты болашағын жасаңыз!",
-  zanger: "Заң көмегі қызметі",
+  zanger: "Заңгерлерді іздеу қызметі",
   green_scan:
     "Акциздік маркаларды сканерлеуге арналған Жасыл сканерлеу қызметі",
   biling: "Шоттар мен төлемдерді басқаруға арналған бұлтты қызмет",
