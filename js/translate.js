@@ -100,6 +100,7 @@ export const translateLangRus = {
   green_scan: "Green Scan сервис для сканирования акцизных марок",
   biling: "Облачный сервис для управления счетами и платежами",
   kasipodaq: "Федерация профсоюзов Республики Казахстан",
+  amian_ag: "Агрегатор розыгрышей",
 };
 
 export const translateLangEng = {
@@ -204,6 +205,7 @@ export const translateLangEng = {
   green_scan: "Green Scan service for scanning excise stamps",
   biling: "Cloud service for managing accounts and payments",
   kasipodaq: "Federation of Trade Unions of the Republic of Kazakhstan",
+  amian_ag: "The lottery aggregator",
 };
 
 export const translateLangKaz = {
@@ -309,4 +311,5 @@ export const translateLangKaz = {
     "Акциздік маркаларды сканерлеуге арналған Жасыл сканерлеу қызметі",
   biling: "Шоттар мен төлемдерді басқаруға арналған бұлтты қызмет",
   kasipodaq: "Қазақстан Республикасының кәсіподақтар Федерациясы",
+  amian_ag: "Ұтыс агрегаторы",
 };
