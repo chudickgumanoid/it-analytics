@@ -1,4 +1,4 @@
-import { translateLangEng, translateLangRus, translateLangKaz } from "./translate.js"
+import { translateLangEng, translateLangKaz, translateLangRus } from "./translate.js"
 
 if (localStorage.getItem("lang") == undefined) {
   localStorage.setItem("lang", "kaz")
@@ -88,17 +88,19 @@ qualityImgs.forEach(img => {
 });
 
 
-const link = document.getElementById("femida-link");
-const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+document.addEventListener("DOMContentLoaded", () => {
+  const link = document.getElementById("femida-link");
+  const userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
-if (/windows/i.test(userAgent)) {
-  // Если Windows
-  link.href = "https://play.google.com/store/apps/details?id=kz.itanalytics.zanger.zanger_mobile";
-} else if (/android/i.test(userAgent)) {
-  link.href = "https://play.google.com/store/apps/details?id=kz.itanalytics.zanger.zanger_mobile";
-} else if (/iPad|iPhone|iPod|Macintosh/.test(userAgent) && !window.MSStream) {
-  link.href = "https://apps.apple.com/kz/app/femida24/id6738701079";
-} else {
-  // Фолбэк — можно поставить любую из ссылок
-  link.href = "https://play.google.com/store/apps/details?id=kz.itanalytics.zanger.zanger_mobile";
-}
+  if (link) {
+    if (/windows/i.test(userAgent)) {
+      link.href = "https://play.google.com/store/apps/details?id=kz.itanalytics.zanger.zanger_mobile";
+    } else if (/android/i.test(userAgent)) {
+      link.href = "https://play.google.com/store/apps/details?id=kz.itanalytics.zanger.zanger_mobile";
+    } else if (/iPad|iPhone|iPod|Macintosh/.test(userAgent) && !window.MSStream) {
+      link.href = "https://apps.apple.com/kz/app/femida24/id6738701079";
+    } else {
+      link.href = "https://play.google.com/store/apps/details?id=kz.itanalytics.zanger.zanger_mobile";
+    }
+  }
+});
