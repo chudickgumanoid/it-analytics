@@ -66,10 +66,11 @@ export const translateLangRus = {
   kurs1: "Всегда самые выгодные курсы валют",
   send_btn: "Отправить заявку",
   greenmag:
-    "Автоматизация коммисионных магазинов, ломбардов и магазинов по прокату товаров",
+    "ТУС - товароучетная система",
   greenprice: "Автоматизация проведения запупок",
-  findex: "Управление и мониторинг арендататоров",
-  amian: "Система лояльности B2C и B2B",
+  findex: "Cистема мониторинга и прозрачного управления арендаторов",
+  amian: "Хранение фискальных чеков и кэшбек",
+  amian_biz: "Система лояльности №1 в Казахстане, агрегатор розыгрышей",
   about_we:
     "Мы - казахстанская компания ТОО IT Analytics, занимающаяся разработкой программного обеспечения для бизнеса. Наши решения применяются как в B2B, так и в B2C сегментах. Наши специалисты обладают обширным опытом работы в IT сфере.",
   about_record:
@@ -171,10 +172,11 @@ export const translateLangEng = {
   next_code: "IT School",
   kurs1: "Always the most favorable exchange rates",
   send_btn: "Send a request",
-  greenmag: "Automation of thrift stores",
+  greenmag: "CAS - commodity accounting system",
   greenprice: "Automation of procurement",
-  findex: "Management and monitoring of tenants",
-  amian: "B2C and B2B loyalty system",
+  findex: "Tenant monitoring and transparent management system",
+  amian: "Storage of fiscal receipts and cashback",
+  amian_biz: "Loyalty system No. 1 in Kazakhstan, lottery aggregator",
   about_we:
     "We are a Kazakhstani company, IT Analytics LLP, engaged in the development of business software. Our solutions are used in both B2B and B2C segments. Our specialists have extensive experience in the IT field.",
   about_record:
@@ -276,10 +278,11 @@ export const translateLangKaz = {
   next_code: "IT мектебі",
   kurs1: "Әрқашан ең тиімді валюта бағамдары",
   send_btn: "өтінім жіберу",
-  greenmag: "Yнемдеу дүкендерін автоматтандыру",
+  greenmag: "ТЕЖ Тауар есебі жүйесі",
   greenprice: "Сатып алуды автоматтандыру",
-  findex: "Жалға алушыларды басқару және бақылау",
-  amian: "B2C және B2B адалдық жүйесі",
+  findex: "Жалға алушылардың мониторингі және ашық басқару жүйесі",
+  amian: "фискалдық чектерді сақтау және кэшбэк қызметі",
+  amian_biz: "Қазақстандағы №1 адалдық жүйесі, ұтыстарды біріктіретін агрегатор",
   about_we:
     "Біз - бизнеске арналған бағдарламалық қамтамасыз етуді әзірлеумен айналысатын қазақстандық IT Analytics ЖШС компаниясымыз. Біздің шешімдеріміз B2B және B2C сегменттерінде қолданылады. Біздің мамандарымыздың IT саласында тәжірибесі мол.",
   about_record:
