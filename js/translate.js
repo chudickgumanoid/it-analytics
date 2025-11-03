@@ -29,7 +29,8 @@ export const translateLangRus = {
   form_not_send: "Мы не шлем спам, и не передаем никому ваши данные.",
   edu_adress: "Адрес",
   edu_want: "Хотите записаться на курсы?",
-  edu_phone: "+7 777 658 18 22",
+  edu_phone: "+7 747 645 0188",
+  edu_phone_sec: "+7 702 910 5140",
   edu_our:
     "Наша компания проводит учебные курсы по подготовке разработчиков по следующим языкам программирования: ",
   elixir: "1. Elixir",
@@ -136,7 +137,8 @@ export const translateLangEng = {
     "We do not send spam, and we do not share your data with anyone.",
   edu_adress: "Address",
   edu_want: "Do you want to enroll in courses?",
-  edu_phone: "+7 777 658 18 22",
+  edu_phone: "+7 747 645 0188",
+  edu_phone_sec: "+7 702 910 5140",
   edu_our:
     "Our company conducts training courses for developers in the following programming languages: ",
   elixir: "1. Elixir",
@@ -242,7 +244,8 @@ export const translateLangKaz = {
     "біз спам жібермейміз және сіздің деректеріңізді ешкімге бермейміз.",
   edu_adress: "Мекен-жайы",
   edu_want: "Курстарға жазылғыңыз келе ме?",
-  edu_phone: "+7 777 658 18 22",
+  edu_phone: "+7 747 645 0188",
+  edu_phone_sec:"+7 702 910 5140",
   edu_our:
     "Біздің компания әзірлеушілерді келесі бағдарламалау тілдері бойынша оқыту курстарын өткізеді: ",
   elixir: "1. Elixir",
